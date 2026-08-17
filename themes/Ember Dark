@@ -1,0 +1,30 @@
+# Ember Dark - A refined dark theme with warm orange accents
+# Designed for optimal readability and comfortable contrast
+
+# Base colors (0-7: normal intensity)
+palette = 0=#82828a
+palette = 1=#e06c60
+palette = 2=#8ab87a
+palette = 3=#d4a656
+palette = 4=#6ca0c8
+palette = 5=#c586b6
+palette = 6=#6eb5b5
+palette = 7=#c8c8c8
+
+# Bright colors (8-15: high intensity)
+palette = 8=#9a9aa2
+palette = 9=#e8887e
+palette = 10=#a6d494
+palette = 11=#e6b86e
+palette = 12=#8abcdc
+palette = 13=#d49ec8
+palette = 14=#8ac9c9
+palette = 15=#e4e4e4
+
+# Core terminal colors
+background = #18181a
+foreground = #d8d4cf
+cursor-color = #d49a6a
+cursor-text = #18181a
+selection-background = #3d3530
+selection-foreground = #e8e4df

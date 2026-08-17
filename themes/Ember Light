@@ -1,0 +1,30 @@
+# Ember Light - A refined light theme with warm orange accents
+# Designed for optimal readability and high contrast
+
+# Base colors (0-7: normal intensity)
+palette = 0=#1a1a1c
+palette = 1=#b83a30
+palette = 2=#2a7520
+palette = 3=#956318
+palette = 4=#2560a0
+palette = 5=#8a3a80
+palette = 6=#1a7878
+palette = 7=#5f5f65
+
+# Bright colors (8-15: high intensity)
+palette = 8=#505055
+palette = 9=#c84a40
+palette = 10=#318028
+palette = 11=#9c6a20
+palette = 12=#3575b5
+palette = 13=#9a4a90
+palette = 14=#258080
+palette = 15=#74747a
+
+# Core terminal colors
+background = #ffffff
+foreground = #1a1a1c
+cursor-color = #a86020
+cursor-text = #ffffff
+selection-background = #d0d0d5
+selection-foreground = #1a1a1c

@@ -2,29 +2,31 @@
 # Designed for optimal readability and high contrast
 
 # Base colors (0-7: normal intensity)
+# 7 kept dark enough to read as FG on light bg (not true white)
 palette = 0=#1a1a1c
 palette = 1=#b83a30
 palette = 2=#2a7520
-palette = 3=#956318
+palette = 3=#8a5a10
 palette = 4=#2560a0
 palette = 5=#8a3a80
 palette = 6=#1a7878
-palette = 7=#5f5f65
+palette = 7=#3a3a40
 
 # Bright colors (8-15: high intensity)
-palette = 8=#505055
+# 8 used for dim/comments; 15 darkest "bright white" for FG readability
+palette = 8=#48484e
 palette = 9=#c84a40
 palette = 10=#318028
 palette = 11=#9c6a20
 palette = 12=#3575b5
 palette = 13=#9a4a90
 palette = 14=#258080
-palette = 15=#74747a
+palette = 15=#45454b
 
 # Core terminal colors
-background = #ffffff
+background = #f8f7f5
 foreground = #1a1a1c
 cursor-color = #a86020
-cursor-text = #ffffff
-selection-background = #d0d0d5
+cursor-text = #f8f7f5
+selection-background = #ddd9d4
 selection-foreground = #1a1a1c

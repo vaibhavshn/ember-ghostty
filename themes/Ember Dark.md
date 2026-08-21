@@ -10,8 +10,8 @@ A refined dark theme with warm orange accents designed for optimal readability a
 | Foreground | `#d8d4cf` | Warm off-white for comfortable reading |
 | Cursor | `#d49a6a` | Muted burnt orange - visible but not harsh |
 | Selection | `#3d3530` | Warm brown tint for subtle highlighting |
-| Gray/Black (0,8) | `#82828a` / `#9a9aa2` | Readable neutral grays; avoids disappearing against the dark background |
-| White (7,15) | `#c8c8c8` / `#e4e4e4` | High-contrast light grays for primary CLI output |
+| Gray/Black (0,8) | `#9a9aa2` / `#b4b4bc` | Readable as FG (dim/comments); not true black |
+| White (7,15) | `#c8c4bf` / `#e8e4df` | Warm light grays for primary CLI output |
 | Yellow/Orange (3,11) | `#d4a656` / `#e6b86e` | Core orange accents, desaturated for balance |
 | Red (1,9) | `#e06c60` / `#e8887e` | Warm coral-red, complements orange |
 | Green (2,10) | `#8ab87a` / `#a6d494` | Sage green for contrast against warm tones |
@@ -21,8 +21,9 @@ A refined dark theme with warm orange accents designed for optimal readability a
 
 ## Usage
 
-Update your Ghostty config:
-
 ```
 theme = light:"Ember Light", dark:"Ember Dark"
+minimum-contrast = 1.75
 ```
+
+`minimum-contrast` auto-boosts low-contrast FG/BG pairs (dim text, light-on-light 256-color cells, etc.).
